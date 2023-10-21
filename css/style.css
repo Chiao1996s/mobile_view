@@ -82,20 +82,24 @@ nav a{
 
 }
 
-.skip a {
-    background: rgb(0, 0, 0);
-    left: 0;
-    padding: 6px;
-    -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
-    z-index: 1;
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
 }
 
-nav {
-    background-color: #ffffff;
-    padding: 25px 0; 
-    text-align: left;
+
+nav{
+  background-color: #ddd;
+  padding: 25px 0; 
+  text-align: left;
 }
+
+
 
 nav li:hover {
    text-decoration: underline #054fb9 2px;
